@@ -1,0 +1,14 @@
+*{
+    margin: 0;/*agar shortcut se le aana ha margin and padding tho humlog likhenge m0+p0 and enter*/
+    padding:0;
+}
+.red{
+    background: rgb(189, 55, 122);
+    height: 344px;
+    color: white;
+}
+
+.green{
+    background-color: green;
+    color:aqua;
+}

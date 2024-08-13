@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors</title>
+    <style>
+        h1{
+            color: red;/*this is css selectors and this is the type of element selector*/
+        }
+        div{
+            background-color: blue;
+        }
+        #red,div#red,h3{/*three mai se koi bhi likha sakte ha ya group mai bhi likha sakte ha*/
+            color: white;
+            background-color: red;/*this is id selectors*/
+        }
+        .blue{
+            /* this is to provide a default background *//*short cut key to comment in css ctrl+/*/
+            background-color: blue;
+            color:white;
+            border:2px black;
+        }
+        *{
+            margin:0;
+            padding:0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>This is my Css Selector page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, modi autem magnam quos minus fugiat voluptatem eveniet consectetur, mollitia sed neque nulla, sapiente deleniti illo exercitationem laborum iusto culpa tempore accusantium accusamus temporibus! Voluptatem!</p>
+        <h1>this is another h1</h1>
+    </div>
+    <div id="red"><!--the short key div#red to display-->
+         bg is red
+    </div>
+    <span class="blue">first tag</span>
+    <span class="blue">second tag</span>
+    <span class="blue">thirdtag</span>
+    <h3>I am h3</h3>
+</body>
+</html>

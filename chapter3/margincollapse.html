@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin collpase</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box1{
+            background-color: red;
+            margin: 30px;
+            height: 20px;
+        }
+        .box2{
+            background-color: aqua;
+            margin: 30px;
+            height: 20;
+            padding:2px;
+            border: 2px solid grey;
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facilis doloremque nostrum obcaecati tempore natus. Repellendus cum libero temporibus non tenetur id inventore aliquam!
+    </div>
+    <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam hic dolores minima voluptatibus qui veritatis fugiat vero expedita neque vel.
+    </div>
+</body>
+</html>

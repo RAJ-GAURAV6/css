@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 455px;
+        }
+        .box{
+            border: 2px solid black;
+            display: inline-block;
+            transform: translate(134px,56px) rotateX(45deg);
+            transform-origin: 0;
+            /* transform: scale(4,7); */
+            /* transform: scaleX(8); */
+            /* transform: scaleY(8); */
+            /* transform: skew(4deg,6deg); */
+        }
+        .img:hover{
+            width:56px;
+        }
+        img{
+            transition-property: width;
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+            transition-delay: 3s;
+        }
+    </style>
+  
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="https://source.unsplash.com/960x120/?nature,water">
+            <button id="myImage">Toggle</button>
+        </div>
+    </div>
+</body>
+<script>
+    btn.addEventListener("click", ()=>){
+        if(myImage.style.width === '546px')
+        {
+        myImage.style.width ="164px";
+        }
+        elseif(myImage.style.width = '146px'){
+            myImage.style.width = "546";
+        }
+
+    }
+</script>
+</html>
